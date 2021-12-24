@@ -1,15 +1,5 @@
 version = 1
 
-test_patterns = [
-  "def function(input, an_argument_not_used):  # skipcq: PYL-W0622, PYL-W0613",
-  "    pass"
-]
-
-exclude_patterns = [
-  "def function(input, an_argument_not_used):  # skipcq: PYL-W0622, PYL-W0613",
-  "    pass"
-]
-
 [[analyzers]]
-name = "rust"
+name = "php"
 enabled = true
